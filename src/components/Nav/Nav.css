@@ -1,0 +1,14 @@
+.Nav {
+    display: flex;
+    background-color: rgb(32, 43, 196);
+    color: rgb(82, 206, 44);
+    border-radius: 10px;
+}
+
+.Nav li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
