@@ -9,7 +9,6 @@ export class Kitty extends React.Component {
 
     newKitty () {
         const length = Math.floor(Math.random()*300) + 50;
-        const width = Math.floor(Math.random()*300) + 50;
         this.setState({image : `http://placekitten.com/${length}/${length}`})
     }
 
@@ -17,7 +16,7 @@ export class Kitty extends React.Component {
     render () {
         return (
             <div>
-                <img onClick={this.newKitty} src={this.state.image} />
+                <img onPointerUp={this.newKitty} src={this.state.image} alt="cute kitty"/>
             </div>
         );
     }

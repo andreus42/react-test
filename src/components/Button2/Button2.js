@@ -10,10 +10,6 @@ const styles = {
   }
 
 export class Button2 extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { name: 'Minus' };
-    }
 	render() {
 		return (
             <button style={styles} onClick={this.props.onClick}>-</button>

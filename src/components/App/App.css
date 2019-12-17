@@ -3,26 +3,19 @@
 }
 
 .App-header {
-  background-color: #3d6ed1;
+  
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   /* justify-content: center; */
   font-size: calc(20px);
   color: rgb(247, 81, 81);
 }
 
-.App-link {
-  color: #b4f029;
-}
 
 .App-body {
   background-color: #3d6ed1;
   display: inline-flex;
   align-items: center;
   color: rgb(247, 81, 81);
-}
-
-body {
-  background-color: #3d6ed1;
 }
